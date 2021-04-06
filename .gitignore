@@ -44,3 +44,22 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Ionic
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+*.sublime-project
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+*.log
+log.txt
+npm-debug.log*
+/.ionic
+/.sourcemaps
+/.versions
+/platforms
+/plugins
+/www
