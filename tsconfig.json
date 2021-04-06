@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -19,7 +18,18 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@interfaces/*": [ "src/app/common/interfaces/*" ],
+      "@constants/*": [ "src/app/common/constants/*" ],
+      "@common/*": [ "src/app/common/*" ],
+      "@services/*": [ "src/app/services/*" ],
+      "@providers/*": [ "src/app/providers/*" ],
+      "@components/*": [ "src/app/components/*" ],
+      "@mocks/*": ["src/app/common/mocks/*"],
+      "@util": [ "src/app/common/utils/util" ],
+      "@env": [ "src/environments/environment" ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

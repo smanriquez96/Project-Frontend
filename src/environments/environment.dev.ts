@@ -1,7 +1,7 @@
 import { IEnvironment } from '@interfaces/environment.interface';
 
 export const environment: IEnvironment = {
-  ENV: '',
+  ENV: 'development',
   USING_MOCKS: false,
-  BASE_BACKEND: ''
+  BASE_BACKEND: 'http://localhost:8080/'
 };

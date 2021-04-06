@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "serve": "npm run serve:dev",
+    "serve:dev": "ng serve --configuration=dev --host 0.0.0.0 --port 4200",
+    "serve:qa": "ng serve --configuration=qa --host 0.0.0.0 --ssl true",
+    "serve:prod": "ng serve --configuration=production",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
