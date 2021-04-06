@@ -1,27 +1,35 @@
-# NewPwa
+# New PWA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+## Requirements
 
-## Development server
+Before start, please make sure you have installed this programs.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Node JS 12.0+, npm 6+
+  - Prefer installing it with [nvm for Mac and Linux](https://github.com/creationix/nvm) / [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+* Angular 8+
+* Ionic 5+
 
-## Code scaffolding
+## Installing
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+$ npm install
+$ npm run serve:dev # other environments are: qa, staging and prod.
 
-## Build
+$ # Open http://localhost:4200/ in your browser.
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Running tests
 
-## Running unit tests
+```shell
+$ npm run test
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running lint
 
-## Running end-to-end tests
+```shell
+$ npm run lint
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Keeping a Changelog
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+It is very important for a repository to keep a change log of the improvements, fixes and/or deprecations that are made by the team. We recommend to follow [these](https://keepachangelog.com/en/1.0.0/) directives, read them carefully!
